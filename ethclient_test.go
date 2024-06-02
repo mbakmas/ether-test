@@ -43,7 +43,7 @@ func TestConnectToTestnet(t *testing.T) {
 
 // TestGetAccountBalance tests fetching the balance for a specific account
 func TestGetAccountBalance(t *testing.T) {
-	accountAddress := "0xA41c36BCd65bDbFB62FE93E3b7a28d290E63C1F7" // Replace with the account address
+	accountAddress := "0x13Fe6F7B6619CB2b1915ccA860e01288C230AC83" // Replace with the account address
 
 	ctx, cancel := context.WithTimeout(context.Background(), 3*time.Second)
 	defer cancel()
